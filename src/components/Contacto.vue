@@ -16,7 +16,7 @@
           <input type="phone" id="telefono" />
         </span>
         <span>
-          <label for="Email">Email</label>
+          <label for="Email">Email corporativo</label>
           <input type="email" id="Email" />
         </span>
         <span>
