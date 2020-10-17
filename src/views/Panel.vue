@@ -38,26 +38,26 @@
           <th>Descargar</th>
         </tr>
         <tr>
-          <td>Jose</td>
-          <td>Perez</td>
-          <td>10/10/2020</td>
+          <td>Diego </td>
+          <td>Esteve</td>
+          <td>17/10/2020</td>
           <td><span class="finalizado">Finalizado</span></td>
           <td>
-            <a href="descargas/el.pdf" download
+            <a href="descargas/TESIS.pdf" download
               ><i class="fas fa-cloud-download-alt"></i
             ></a>
           </td>
         </tr>
         <tr>
-          <td>Jose</td>
-          <td>Perez</td>
+          <td>Gaston</td>
+          <td>Mullen</td>
           <td>20/10/2020</td>
           <td><span class="proceso">En proceso</span></td>
           <td><i class="fas fa-cloud-download-alt"></i></td>
         </tr>
         <tr>
-          <td>Jose</td>
-          <td>Perez</td>
+          <td>Javier</td>
+          <td>Pina</td>
           <td>15/9/2020</td>
           <td><span class="verificacion"> En verificación</span></td>
           <td><i class="fas fa-cloud-download-alt"></i></td>
