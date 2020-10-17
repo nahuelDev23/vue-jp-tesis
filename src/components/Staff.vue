@@ -15,8 +15,6 @@
             Ceo
           </div>
           <div class="staff_datos_staff_person_contact">
-            <span>+1155223344</span>
-            <span>martin@gmail.com</span>
           </div>
         </div>
 
@@ -25,14 +23,12 @@
             <img src="../assets/img/team/amigo.jpg" alt="" />
           </div>
           <div class="staff_datos_staff_person_name">
-            Javier Raspasuela
+            Bruno Florio
           </div>
           <div class="staff_datos_staff_person_rol">
             CTO
           </div>
           <div class="staff_datos_staff_person_contact">
-            <span>+1155223344</span>
-            <span>martin@gmail.com</span>
           </div>
         </div>
 
@@ -47,8 +43,6 @@
             Proyect Manager
           </div>
           <div class="staff_datos_staff_person_contact">
-            <span>+1155223344</span>
-            <span>martin@gmail.com</span>
           </div>
         </div>
       </div>

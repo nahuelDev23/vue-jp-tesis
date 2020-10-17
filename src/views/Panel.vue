@@ -4,7 +4,7 @@
     <div class="contene">
       <vue-particles color="#dedede" class="particles"></vue-particles>
       <header class="header">
-        <div class="header_logo">LOGO</div>
+        <div class="header_logo"><img class="logo" src="../assets/img/logo.png" alt=""></div>
         <nav class="main_nav">
           <ul class="main_menu">
             <li class="main_menu_list">
