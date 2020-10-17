@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HelloWorld/>
+    <HelloWorld />
   </div>
 </template>
 
@@ -15,4 +15,3 @@ export default {
   }
 };
 </script>
-

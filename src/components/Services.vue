@@ -1,21 +1,35 @@
 <template>
-    <!--servicios-->
-            <div class="servicios" id="uno">
-                  <div class="servicios_datos">
-                        <div class="servicios_datos_title" name="uno" id="uno">Our Services</div>
-                        <div class="servicios_datos_text">
-                              <p>The Internet is the world’s largest database. We offer the technology and knowhow to
-                                    help you find the information you need amongst trillions of available documents with
-                                    our OSINT Technology. We collect and analyse information from online sources. We can
-                                    help you collect better data for improved analysis, intelligence and insights.</p>
-                              <p>OSINT stands for Open Source Intelligence, and this means collecting information from
-                                    openly available sources online. This includes data mining, various crawling
-                                    techniques, data extraction, data washing and analysis.</p>
-                              <p class="servicios_datos_mas">Leer más</p>
-                        </div>
-                  </div>
-                  <div class="servicios_img">
-                        <img src="assets/img/servicios.png" alt="">
-                  </div>
-            </div>
+  <!--servicios-->
+  <div class="servicios" id="uno">
+    <div class="servicios_datos">
+      <div class="servicios_datos_title" name="uno" id="uno">
+        Nuestros Servicios
+      </div>
+      <div class="servicios_datos_text">
+        <p>
+          Internet es la base de datos más grande del mundo. Ofrecemos la
+          tecnología y el conocimiento para ayudarlo a encontrar la información
+          que necesita entre billones de documentos disponibles con nuestra
+          tecnología OSINT. Recopilamos y analizamos información de fuentes en
+          línea. Podemos ayudarlo a recopilar mejores datos para mejorar el
+          análisis, la inteligencia y los conocimientos. OSINT son las siglas de
+          Open Source Intelligence, y esto significa recopilar información de
+          fuentes en línea disponibles abiertamente. Esto incluye minería de
+          datos, diversas técnicas de rastreo, extracción de datos, lavado y
+          análisis de datos.
+        </p>
+        <p>
+          Como resultado de la investigacion del objetivo solicitado, nuestro
+          valor agregado es la realizacion de un awareness personalizado para
+          cada uno de los casos que se presenten. Ya que gran parte de los
+          ataques y perdida de informacion se deben a la inocencia o la falta de
+          conocimiento de seguridad de los usuarios finales.
+        </p>
+        <p class="servicios_datos_mas">Leer más</p>
+      </div>
+    </div>
+    <div class="servicios_img">
+      <img src="assets/img/servicios.png" alt="" />
+    </div>
+  </div>
 </template>

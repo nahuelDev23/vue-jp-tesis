@@ -1,15 +1,17 @@
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
-import VueParticles from 'vue-particles';
-var VueScrollTo = require('vue-scrollto');
+import VueParticles from "vue-particles";
+import vuetify from "./assets/plugins/vuetify"; // path to vuetify export
+var VueScrollTo = require("vue-scrollto");
 
 Vue.use(VueParticles);
-Vue.use(VueScrollTo)
+Vue.use(VueScrollTo);
 
 Vue.config.productionTip = false;
 
 new Vue({
+  vuetify,
   router,
   render: h => h(App)
 }).$mount("#app");
