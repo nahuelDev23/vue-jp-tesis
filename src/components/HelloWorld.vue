@@ -42,6 +42,7 @@
       </div>
     </div>
     <Services />
+    <Recomendacion />
     <Staff />
     <Contacto />
   </div>
@@ -51,12 +52,14 @@
 import Services from "@/components/Services.vue";
 import Contacto from "@/components/Contacto.vue";
 import Staff from "@/components/Staff.vue";
+import Recomendacion from "@/components/Recomendacion.vue";
 export default {
   name: "HelloWorld",
   components: {
     Services,
     Contacto,
-    Staff
+    Staff,
+    Recomendacion
   }
 };
 </script>

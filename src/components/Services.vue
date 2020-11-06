@@ -30,7 +30,7 @@
       </div>
     </div>
     <div class="servicios_img">
-      <img src="assets/img/servicios.png" alt="" />
+      <img src="../assets/img/servicios.png" alt="" />
     </div>
   </div>
 </template>

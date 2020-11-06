@@ -126,6 +126,11 @@
                     <label for="file">Adjuntar</label>
                     <input type="file" id="file" />
                   </span>
+                   <span>
+                    <label for="tipo">Tipo de busqueda</label>
+                    <label><input type="checkbox" id="cbox1" value="first_checkbox"> Estandar</label><br>
+                    <label><input type="checkbox" id="cbox1" value="first_checkbox"> Deep / darkweb</label><br>
+                  </span>
                 </form>
               </div>
             </div>
