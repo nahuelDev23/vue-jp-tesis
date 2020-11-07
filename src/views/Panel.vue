@@ -128,8 +128,22 @@
                   </span>
                    <span>
                     <label for="tipo">Tipo de busqueda</label>
-                    <label><input type="checkbox" id="cbox1" value="first_checkbox"> Estandar</label><br>
-                    <label><input type="checkbox" id="cbox1" value="first_checkbox"> Deep / darkweb</label><br>
+                    <p-check class="p-svg p-curve p-jelly m-b-1" name="check" color="warning" v-model="check">
+                      <svg slot="extra" class="svg svg-icon" viewBox="0 0 20 20">
+                          <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z"
+                              style="stroke: white;fill:white">
+                          </path>
+                      </svg>
+                        Estandar
+                      </p-check>
+                       <p-check class="p-svg p-curve p-jelly" name="check" color="warning" v-model="check">
+                      <svg slot="extra" class="svg svg-icon" viewBox="0 0 20 20">
+                          <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z"
+                              style="stroke: white;fill:white">
+                          </path>
+                      </svg>
+                        Deep/Darkweb
+                      </p-check>
                   </span>
                 </form>
               </div>
@@ -180,6 +194,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.m-b-1{
+  margin-bottom: 1rem;
+}
 .particles {
   position: absolute;
   width: 100vw;
@@ -328,7 +345,7 @@ export default {
     align-items: stretch;
   }
   &__footer {
-    padding: 10px 20px 20px;
+    padding: 0px 20px 20px;
 
     &_terms {
       display: flex;
